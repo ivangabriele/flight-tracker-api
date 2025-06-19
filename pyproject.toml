@@ -1,0 +1,28 @@
+[project]
+name = "flight-tracker-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+
+requires-python = "==3.13.*"
+dependencies = [
+  "authlib==1.6.0",
+  "flask==3.1.1",
+  "flask-migrate==4.1.0",
+  "flask-sqlalchemy==3.1.1",
+  "flask-validation==1.0.2",
+  "markupsafe==3.0.2",
+  "psycopg2-binary==2.9.10",
+  "pydantic==2.11.7",
+  "python-dotenv==1.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "faker==37.4.0",
+    "mypy==1.16.1",
+ "pytest==8.4.1",
+ "ruff==0.12.0",
+ "types-authlib==1.5.0.20250608",
+ "watchdog==6.0.0",
+]
